@@ -4,7 +4,7 @@ using Soenneker.Tests.HostedUnit;
 
 namespace Soenneker.PostHog.OpenApiClientUtil.Tests;
 
-[ClassDataSource<UnitTestHost>(Shared = SharedType.PerTestSession)]
+[ClassDataSource<Host>(Shared = SharedType.PerTestSession)]
 public sealed class PostHogOpenApiClientUtilTests : HostedUnitTest
 {
     private readonly IPostHogOpenApiClientUtil _openapiclientutil;
