@@ -10,5 +10,10 @@ namespace Soenneker.PostHog.OpenApiClientUtil.Abstract;
 /// </summary>
 public interface IPostHogOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
+    /// <summary>
+    /// Gets the value.
+    /// </summary>
+    /// <param name="cancellationToken">The cancellation token.</param>
+    /// <returns>A task containing the result of the operation.</returns>
     ValueTask<PostHogOpenApiClient> Get(CancellationToken cancellationToken = default);
 }
