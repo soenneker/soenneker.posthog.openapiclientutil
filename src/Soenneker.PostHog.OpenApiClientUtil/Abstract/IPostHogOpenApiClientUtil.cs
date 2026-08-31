@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 namespace Soenneker.PostHog.OpenApiClientUtil.Abstract;
 
 /// <summary>
-/// Exposes a cached OpenAPI client instance.
+/// Provides a cached, authenticated client for PostHog's management API.
 /// </summary>
 public interface IPostHogOpenApiClientUtil: IDisposable, IAsyncDisposable
 {
     /// <summary>
-    /// Gets the value.
+    /// Gets the generated client.
     /// </summary>
     /// <param name="cancellationToken">The cancellation token.</param>
-    /// <returns>A task containing the result of the operation.</returns>
+    /// <returns>The cached PostHog client.</returns>
     ValueTask<PostHogOpenApiClient> Get(CancellationToken cancellationToken = default);
 }

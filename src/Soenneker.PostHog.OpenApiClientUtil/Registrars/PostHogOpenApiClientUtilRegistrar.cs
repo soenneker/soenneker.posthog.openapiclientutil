@@ -6,7 +6,7 @@ using Soenneker.PostHog.OpenApiClientUtil.Abstract;
 namespace Soenneker.PostHog.OpenApiClientUtil.Registrars;
 
 /// <summary>
-/// Registers the OpenAPI client utility for dependency injection.
+/// Registers the PostHog management API client provider.
 /// </summary>
 public static class PostHogOpenApiClientUtilRegistrar
 {
