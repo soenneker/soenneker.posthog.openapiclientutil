@@ -45,6 +45,5 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.PostHog.HttpClients" Version="4.0.84" />
         <PackageReference Include="Soenneker.PostHog.OpenApiClient" Version="4.0.51" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="4.0.831" />
     </ItemGroup>
 </Project>
