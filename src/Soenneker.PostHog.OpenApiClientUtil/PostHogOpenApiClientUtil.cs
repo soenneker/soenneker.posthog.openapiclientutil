@@ -11,6 +11,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.PostHog.OpenApiClientUtil;
 
+/// <inheritdoc cref="IPostHogOpenApiClientUtil" />
 public sealed class PostHogOpenApiClientUtil : IPostHogOpenApiClientUtil
 {
     private readonly AsyncSingleton<PostHogOpenApiClient> _client;
