@@ -47,6 +47,6 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.PostHog.HttpClients" Version="11.0.148" />
-        <PackageReference Include="Soenneker.PostHog.OpenApiClient" Version="11.0.101" />
+        <PackageReference Include="Soenneker.PostHog.OpenApiClient" Version="11.0.102" />
     </ItemGroup>
 </Project>
